@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  align-content: center;
+  text-align: center;
+}
+header a
+{
+  background-color: gray;
+}
+
+img ,#featured-property{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+#featured-property p
+{
+ width: 800px;
+ text-align:center;
+ margin-left: auto;
+  margin-right: auto;
+}
+#details
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: orangered;
+  align-items: center;
+  
+}
+#details div 
+{
+  float: left;
+  text-align: center;
+  flex: 25%;
+}
